@@ -15,8 +15,8 @@ html::-webkit-scrollbar{ width: 10px;}
 .nav-item .nav-link:hover{ background: #f7f5f2; border-radius: 5px; color: black;}
 #navbar form .btns{ background: black; color: white; border: 1px solid white;}
 
-#navbar form .bt1:hover{ background: white; border: 2px solid green; color: green;}
-#navbar form .bt2:hover{ background: white; border: 2px solid blue; color: blue;}
+#navbar .bout .bt1:hover{ background: white; border: 2px solid green; color: green;}
+#navbar .bout .bt2:hover{ background: white; border: 2px solid blue; color: blue;}
 
 @media screen and (max-width:766px){
     .navbar-nav{ margin-left: 0;}
@@ -145,7 +145,5 @@ html::-webkit-scrollbar{ width: 10px;}
 #footer .socail-links i:hover{ background: white; color: #b2744c; border: 1px solid #b2744c;}
 
 
-/* arrow image */
+
 html{ scroll-behavior: smooth;}
-.arrow{ position: fixed; border-radius: 50px; height: 50px; bottom: 40px; right: 50px; text-decoration: none;
-    text-align: center; line-height: 50px;}
