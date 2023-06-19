@@ -1,0 +1,14 @@
+#connexion{ background: linear-gradient(to left, white, #b2744c);}
+
+
+
+@media screen and (max-width: 768px){
+    #connexion .num1{
+        order: 2;
+        padding-top: 15px;
+    }
+
+    #connexion .num2{
+        order: 1;
+    }
+}
